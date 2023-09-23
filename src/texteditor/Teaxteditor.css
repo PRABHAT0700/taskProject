@@ -1,0 +1,68 @@
+/* maincontainer data */
+.main-container{
+    width: 470px;
+    height: auto;
+    padding: 1rem;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+}
+/* for title and description heading */
+p{
+    font-size: 12px;
+}
+/* for first input field */
+input{
+    height: 1.5rem;
+    width: 100%;
+    outline: none;
+    border-radius: 7px;
+    border: 1px solid gray;
+}
+
+/* inside maincontainer container sub container */
+.container{
+    width: 100%;
+    height: auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: auto;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+/* all buttons wrapper */
+.btn-wrapper{
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(230, 226, 226);
+    gap: 5px;
+}
+.btn-wrapper :nth-child(1){
+    font-weight: bolder;
+    
+}
+.btn-wrapper :nth-child(2){
+    font-style: italic;
+    
+}.btn-wrapper :nth-child(3){
+    text-decoration: underline;
+    
+}.btn-wrapper :nth-child(1){
+    font-weight: bolder;
+    
+}
+.btn-wrapper button{
+    border: none;
+    background-color: rgb(230, 226, 226);
+    font-size: 16px;
+    cursor: pointer;
+}
+/* for text field */
+textarea{
+    height: 10rem;
+    width: 100%;
+    border: none;
+    outline: none;
+}

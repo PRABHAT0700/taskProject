@@ -1,0 +1,79 @@
+
+.datalist{
+    margin-bottom: 10px;
+}
+
+.varient-main-div{
+    height: auto;
+    width: 500px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(86, 86, 86);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.varient-second-div{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.varient-second-div ul li{
+    list-style: none;
+    display: flex;
+}
+
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 17rem;
+    height: 37px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    outline: none;
+}
+
+option {
+    font-size: 16px;
+    outline: none;
+}
+
+.option-div{
+    display: grid;
+    margin-left: 40px;
+}
+
+
+.option-first-input{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 15.5rem;
+    height: 15px;
+    font-size: 16px;
+    outline: none;
+}
+
+.button-input{
+    height: 30px;
+    width: 50px;
+    background: transparent;
+    border-color: #ccc;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
